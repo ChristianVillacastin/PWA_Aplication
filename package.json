@@ -8,5 +8,17 @@
         "serverUrl": "https://autocorector.dit.upm.es/",
         "courseId": "1",
         "assignmentId": "2"
+    },
+    "keywords": [
+        "progressive-web-app",
+        "pwa",
+        "installable web app"
+    ],
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-http-to-https": "^1.1.4"
+    },
+    "scripts": {
+        "start": "node server.js"
     }
 }
